@@ -1,21 +1,16 @@
-// write your code below!
-function happyHolidays() {
+function happyHolidays () {
   return "Happy holidays!"
 }
 
-function happyHolidaysTo(string){
-  return "Happy holidays, " && $string && "!" ;
+function happyHolidaysTo(name){
+  return "Happy holidays, ${name}!"
 }
 
 function happyHolidayTo(holiday,name){
-  return "Happy " && holiday && ", " && name && "!"
+  return "Happy ${holiday}, ${name}!"
 }
 
-function holidayCountdown(holiday,days){
-  return "It\'s " && days && " days until " && holiday && "!"
+function holidayCountdown(days, holiday){
+  return "It\'s ${days} days until ${holiday}!"
 }
-
-
-
-
 
